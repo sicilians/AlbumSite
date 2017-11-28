@@ -27,10 +27,10 @@ Your database should now have the album table in it, which is needed for it to r
 
 Files of interest:
 
-app/Album.php <- the model I created
-app/Http/Controllers/AlbumController.php - the controller I created
-app/Http/Requests/CreateAlbumForm.php - the file I made to define form rules and to add the content entered into said form in the database
-database/migrations/2017_11_13_010943_create_albums_table.php - Database migration file I made
-database/factories/AlbumFactory.php - dummy data seeder I made
-routes/web.php - where I defined my app's routes
-Everything in the resources/views directory
+- app/Album.php - the model I created
+- app/Http/Controllers/AlbumController.php - the controller I created
+- app/Http/Requests/CreateAlbumForm.php - the file I made to define form rules and to add the content entered into said form in the database
+- database/migrations/2017_11_13_010943_create_albums_table.php - Database migration file I made
+- database/factories/AlbumFactory.php - dummy data seeder I made
+- routes/web.php - where I defined my app's routes
+- Everything in the resources/views directory
